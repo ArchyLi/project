@@ -7,6 +7,7 @@ struct Data{
     std::string name;
     std::string school;
     std::string msg;
+    //对于当前情况下，cmd的取值要么为空
     std::string cmd;
 
     //序列化函数和反序列化函数
